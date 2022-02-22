@@ -33,8 +33,8 @@ Vagrant.configure("2") do |config|
     echo ". $HOME/.bashrc" >> $HOME/.bash_profile
 
     echo -e "\nConfiguring credentials as environment variables...\n"
-    echo "export DOCKER_USERNAME='2cant'" >> $HOME/.bash_profile
-    echo "export DOCKER_PASSWORD='SmallPl4ntz'" >> $HOME/.bash_profile
+    echo "export DOCKER_USERNAME='<DOCKER_USERNAME>'" >> $HOME/.bash_profile
+    echo "export DOCKER_PASSWORD='<DOCKER_PASS>'" >> $HOME/.bash_profile
     source $HOME/.bash_profile
 
     echo -e "\nVagrant setup done ..."
